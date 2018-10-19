@@ -2,6 +2,7 @@ using CppSharp.AST;
 using CppSharp.Passes;
 using CppSharp.Types;
 using CppSharp.Parser;
+using ParserTargetInfo = CppSharp.Parser.ParserTargetInfo;
 
 namespace CppSharp.Generators
 {

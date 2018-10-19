@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSubstitute" Version="3.1.0" />
+    <PackageReference Include="NUnit" Version="3.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AST\CppSharp.AST.csproj" />
+    <ProjectReference Include="..\Core\CppSharp.csproj" />
+    <ProjectReference Include="..\Generator\CppSharp.Generator.csproj" />
+    <ProjectReference Include="..\Parser\CppSharp.Parser.csproj" />
+  </ItemGroup>
+
+</Project>

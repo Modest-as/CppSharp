@@ -24,9 +24,7 @@ src/generator/generator
 *.config
 *.vcxproj
 *.filters
-*.sln
 *.metagen
-*.csproj
 *.ilk
 *.manifest
 *.tmp
@@ -35,20 +33,14 @@ src/generator/generator
 *DesignTime*
 *TemporaryGeneratedFile*
 *FileListAbsolute*
-/build/scripts/*.tar.gz
-/build/scripts/.vagrant
-/build/vs2012
-/build/vs2013
-/build/vs2015
-/build/vs2017
-/build/gmake
-/build/headers
+/build
 /deps/llvm
 /deps/NUnit*
 /extra
 /site
 /wip
-/.vs
+/test-build
+.vs
 
 # Nuget: do not include produced packages
 /build/nuget/*.nupkg
